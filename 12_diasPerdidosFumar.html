@@ -3,16 +3,19 @@
     /*
     PROBLEMA: Dias perdidos por fumar
     Peça para o usuário informar a quantidade de cigarros fumados por 
-    dia e a quantidade de anos que fuma. Apresente o total de dias perdidos, considerando que cada cigarro reduz a vida em 10 minutos.
+    dia e a quantidade de anos que fuma. Apresente o total de dias perdidos,
+     considerando que cada cigarro reduz a vida em 10 minutos.
     */
 
     //ENTRADA
 
-    const cigarroDia = Number(prompt("Informe a quantidade de cigarrois fumados por dia ;"))
+    const cigarroDia = Number(prompt("Informe a quantidade de cigarrois fumados por dia :"))
     
-    const 
+    const anos = Number(prompt("Informe a quantidade de anos que fuma : "))
 
+    const sim = (cigarroDia*24) - 10 
+    const talve = sim * anos
     
-    //SAÍDA
+   document.write(`Sua vida está:${talve} de você morrer `)
 
 </script>
